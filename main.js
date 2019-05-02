@@ -39,7 +39,9 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var routes = [];
+var routes = [
+    { path: '/home', redirectTo: '/home/', pathMatch: 'full' }
+];
 var AppRoutingModule = /** @class */ (function () {
     function AppRoutingModule() {
     }
