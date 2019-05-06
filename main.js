@@ -50,7 +50,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var routes = [{
-        path: '',
+        path: '/home',
         component: _instagram_instagram_component__WEBPACK_IMPORTED_MODULE_3__["InstagramComponent"],
         data: { title: 'Hola List' }
     },
@@ -60,12 +60,12 @@ var routes = [{
         data: { title: 'Hola List' }
     },
     {
-        path: 'google-drive',
+        path: '/home/google-drive',
         component: _google_drive_google_drive_component__WEBPACK_IMPORTED_MODULE_4__["GoogleDriveComponent"],
         data: { title: 'Hola List' }
     },
     {
-        path: 'twitter',
+        path: '/home/twitter',
         component: _twitter_twitter_component__WEBPACK_IMPORTED_MODULE_7__["TwitterComponent"],
         data: { title: 'Hola List' }
     }
