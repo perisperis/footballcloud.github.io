@@ -129,7 +129,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var AppComponent = /** @class */ (function () {
     function AppComponent() {
-        this.title = 'home';
+        this.title = 'FootballCloud';
     }
     AppComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
@@ -466,6 +466,7 @@ var InstagramComponent = /** @class */ (function () {
         this.access_token = "";
     }
     InstagramComponent.prototype.ngOnInit = function () {
+        console.log("InstagramComponent");
         this.href = this.router.url;
         this.error = this.route.snapshot.paramMap.get("error");
         this.access_token = this.href.substring(this.href.indexOf("=") + 1);
@@ -670,6 +671,7 @@ var TwitterComponent = /** @class */ (function () {
         this.searchquery = "";
     }
     TwitterComponent.prototype.ngOnInit = function () {
+        console.log("TwitterComponent");
     };
     TwitterComponent.prototype.makecall = function () {
         var _this = this;
